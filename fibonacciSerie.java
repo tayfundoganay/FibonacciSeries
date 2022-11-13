@@ -8,9 +8,9 @@ public class fibonacciSerie{
         int number;
         int fibonacciNumber=0;
         int result=1;
-        Scanner inp = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Kaç elemanlı fibonacci serisi istersiniz : ");
-        number = inp.nextInt();
+        number = scanner.nextInt();
         System.out.print(number + " Elemanlı Fibonacci Serisi : \n");
 
         for(int i =0;i<=(number-1);i++){
